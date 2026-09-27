@@ -243,6 +243,24 @@ Esses serviços são operados pela Google e estão sujeitos às políticas próp
 
 A utilização de um serviço externo não autoriza o Pinho Konvertilo a acessar livremente os dados mantidos por esse serviço.
 
+### 18.1 Reconhecimento de texto (OCR)
+
+Quando a funcionalidade de reconhecimento de texto (OCR) estiver disponível, o Pinho Konvertilo poderá utilizar o **Google ML Kit Text Recognition** com o modelo de escrita latina incorporado ao próprio aplicativo.
+
+O conteúdo visual selecionado para OCR e o texto reconhecido são processados no dispositivo. De acordo com os termos do ML Kit, os dados de entrada e os resultados das APIs de ML Kit são processados no aparelho e não são enviados aos servidores da Google como conteúdo da operação de reconhecimento.
+
+A documentação do ML Kit informa, porém, que seus SDKs podem tratar métricas técnicas de diagnóstico e uso, como informações do dispositivo e do aplicativo, identificadores por instalação, métricas de desempenho, configuração da API, tamanho de entrada e saída, versão da funcionalidade, tipos de evento e códigos de erro.
+
+Na configuração atual do Pinho Konvertilo que inclui OCR:
+- o modelo latino é empacotado com o aplicativo e não depende de download para reconhecer texto;
+- o aplicativo não solicita a permissão Android `INTERNET`;
+- o conteúdo dos arquivos selecionados para OCR não é usado para publicidade nem enviado a servidores do desenvolvedor;
+- a integração e a declaração de Segurança dos dados da Google Play serão revisadas novamente antes de cada publicação relevante.
+
+Referências do fornecedor:
+- ML Kit — Terms & Privacy: https://developers.google.com/ml-kit/terms
+- ML Kit — Google Play data disclosure: https://developers.google.com/ml-kit/android-data-disclosure
+
 ## 19. Direitos relacionados a dados pessoais
 
 Quando houver tratamento de dados pessoais sujeito à Lei Geral de Proteção de Dados Pessoais — LGPD, Lei nº 13.709/2018 — o titular poderá exercer os direitos previstos na legislação aplicável.
