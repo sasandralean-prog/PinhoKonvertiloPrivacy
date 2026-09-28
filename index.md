@@ -4,7 +4,7 @@ title: Política de Privacidade — Pinho Konvertilo
 
 # Política de Privacidade — Pinho Konvertilo
 
-**Última atualização: 27 de setembro de 2026**
+**Última atualização: 28 de setembro de 2026**
 
 Esta Política de Privacidade descreve como o **Pinho Konvertilo**, incluindo as edições **Pinho Konvertilo Free** e **Pinho Konvertilo Premium**, trata informações e arquivos utilizados durante o funcionamento do aplicativo.
 
@@ -133,11 +133,15 @@ As informações de pagamento processadas pela Google estão sujeitas às polít
 
 ## 10. Apoio voluntário ao projeto
 
-O desenvolvedor poderá disponibilizar formas opcionais de apoio financeiro ao desenvolvimento do Pinho Konvertilo.
+O desenvolvedor disponibiliza uma forma opcional de apoio financeiro ao desenvolvimento do Pinho Konvertilo.
 
-Quando o apoio for uma contribuição voluntária sem concessão de conteúdo digital, funcionalidade Premium, vantagem exclusiva ou benefício dentro do aplicativo, ele não constitui compra de funcionalidade do Pinho Konvertilo.
+O apoio é uma contribuição voluntária e não concede conteúdo digital, funcionalidade Premium, vantagem exclusiva, prioridade, badge ou outro benefício dentro do aplicativo.
 
-Caso um serviço externo seja utilizado para receber esse apoio, os dados necessários ao pagamento serão tratados pelo respectivo serviço de pagamento de acordo com sua própria política de privacidade.
+Ao escolher apoiar o projeto, o Pinho Konvertilo solicita ao Android que abra uma página externa de pagamento hospedada pela **Stripe** em `buy.stripe.com`.
+
+O Pinho Konvertilo não coleta, processa nem armazena diretamente o número completo do cartão, código de segurança, credenciais bancárias ou outros dados de pagamento inseridos nessa página externa. Esses dados são tratados pela Stripe conforme suas próprias políticas e termos.
+
+A página de apoio atualmente utiliza valor livre em BRL, com mínimo de R$ 1,50, valor recomendado de R$ 5,00 e sem máximo definido pelo aplicativo. O valor final é escolhido pelo próprio apoiador na página da Stripe.
 
 O Pinho Konvertilo não utiliza uma contribuição voluntária para criar perfis publicitários do usuário.
 
@@ -240,6 +244,8 @@ Isso inclui, principalmente, serviços da Google relacionados a:
 - recursos técnicos da plataforma Android.
 
 Esses serviços são operados pela Google e estão sujeitos às políticas próprias da empresa.
+
+Quando o usuário escolhe realizar um apoio voluntário, o checkout externo é operado pela **Stripe**. O Pinho Konvertilo apenas solicita a abertura da página externa de pagamento; os dados financeiros fornecidos nessa página são tratados pela Stripe de acordo com suas próprias políticas e termos.
 
 A utilização de um serviço externo não autoriza o Pinho Konvertilo a acessar livremente os dados mantidos por esse serviço.
 
